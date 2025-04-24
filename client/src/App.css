@@ -1,2 +1,18 @@
 @import "tailwindcss";
 
+:root{
+
+}
+
+#root{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}

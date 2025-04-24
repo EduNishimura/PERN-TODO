@@ -1,12 +1,15 @@
-import { useState } from 'react'
-
+import React, { useState } from 'react'
 import './App.css'
 
-function App() {
+//Componentes
+import InputTodo from './components/InputTodo';
+import ListTodos from './components/ListTodos';
 
-  return (
+function App() {
+  return(
     <>
-    
+      <InputTodo/>
+      <ListTodos/>
     </>
   )
 }
