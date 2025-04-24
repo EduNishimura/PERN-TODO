@@ -62,7 +62,7 @@ const ListTodos = () => {
 
                                 {/* DELETE BUTTON */}
                                 <button 
-                                    className="bg-red-400 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded"
+                                    className="bg-red-400 hover:bg-red-700 text-gray-800 font-bold py-2 px-4 rounded"
                                     onClick={() => deleteTodo(todo.todo_id)}
                                 >
                                     Delete
